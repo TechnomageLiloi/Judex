@@ -1,9 +1,9 @@
 <?php
 
-namespace PhpJudex\Checks\CheckTrue;
+namespace Judex\Checks\CheckTrue;
 
 use PHPUnit\Framework\TestCase;
-use PhpJudex\Assert;
+use Judex\Assert;
 
 /**
  * Check assert class.
@@ -13,7 +13,7 @@ class CheckTest extends TestCase
     /**
      * Tests {@link Assert::true()} method (default values).
      *
-     * * Arrange: defines {@link Assert} in {@link \PhpJudex\Checks\CheckTrue\Exception} catch.
+     * * Arrange: defines {@link Assert} in {@link \Judex\Checks\CheckTrue\Exception} catch.
      * * Act: calls {@link Assert::true()} method.
      * * Assert: checks default values.
      */
@@ -37,7 +37,7 @@ class CheckTest extends TestCase
     /**
      * Tests {@link Assert::true()} method (manual values).
      *
-     * * Arrange: defines {@link Assert} in {@link \PhpJudex\Checks\CheckTrue\Exception} catch.
+     * * Arrange: defines {@link Assert} in {@link \Judex\Checks\CheckTrue\Exception} catch.
      * * Act: calls {@link Assert::true()} method.
      * * Assert: checks manual values.
      */

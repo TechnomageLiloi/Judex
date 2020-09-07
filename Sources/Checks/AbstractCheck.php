@@ -1,6 +1,6 @@
 <?php
 
-namespace PhpJudex\Checks;
+namespace Judex\Checks;
 
 /**
  * Abstract assert check.

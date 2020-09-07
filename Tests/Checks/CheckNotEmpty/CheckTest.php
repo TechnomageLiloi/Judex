@@ -1,9 +1,9 @@
 <?php
 
-namespace PhpJudex\Checks\CheckNotEmpty;
+namespace Judex\Checks\CheckNotEmpty;
 
 use PHPUnit\Framework\TestCase;
-use PhpJudex\Assert;
+use Judex\Assert;
 
 /**
  * Check assert class.
@@ -13,7 +13,7 @@ class CheckTest extends TestCase
     /**
      * Tests {@link Assert::notEmpty()} method (default values).
      *
-     * * Arrange: defines {@link Assert} in {@link \PhpJudex\Checks\CheckNotEmpty\Exception} catch.
+     * * Arrange: defines {@link Assert} in {@link \Judex\Checks\CheckNotEmpty\Exception} catch.
      * * Act: calls {@link Assert::notEmpty()} method.
      * * Assert: checks default values.
      */
@@ -37,7 +37,7 @@ class CheckTest extends TestCase
     /**
      * Tests {@link Assert::notEmpty()} method (manual values).
      *
-     * * Arrange: defines {@link Assert} in {@link \PhpJudex\Checks\CheckNotEmpty\Exception} catch.
+     * * Arrange: defines {@link Assert} in {@link \Judex\Checks\CheckNotEmpty\Exception} catch.
      * * Act: calls {@link Assert::notEmpty()} method.
      * * Assert: checks manual values.
      */

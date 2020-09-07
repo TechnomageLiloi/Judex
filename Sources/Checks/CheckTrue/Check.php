@@ -1,8 +1,8 @@
 <?php
 
-namespace PhpJudex\Checks\CheckTrue;
+namespace Judex\Checks\CheckTrue;
 
-use PhpJudex\Checks\AbstractCheck;
+use Judex\Checks\AbstractCheck;
 
 /**
  * Assert check: $this->verifiedValue === true

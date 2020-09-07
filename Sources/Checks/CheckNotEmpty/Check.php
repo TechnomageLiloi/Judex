@@ -1,8 +1,8 @@
 <?php
 
-namespace PhpJudex\Checks\CheckNotEmpty;
+namespace Judex\Checks\CheckNotEmpty;
 
-use PhpJudex\Checks\AbstractCheck;
+use Judex\Checks\AbstractCheck;
 
 /**
  * Assert check: !empty($this->verifiedValue)

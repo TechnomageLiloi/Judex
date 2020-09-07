@@ -1,8 +1,8 @@
 <?php
 
-namespace PhpJudex;
+namespace Judex;
 
-use PhpJudex\Checks\AbstractCheck;
+use Judex\Checks\AbstractCheck;
 
 /**
  * Assertion.
@@ -22,7 +22,7 @@ class Assert
      */
     public static function __callStatic($name, $arguments)
     {
-        $checkClass = sprintf('PhpJudex\\Checks\\Check%s\\Check', ucfirst($name));
+        $checkClass = sprintf('Judex\\Checks\\Check%s\\Check', ucfirst($name));
 
         if(!class_exists($checkClass))
         {
@@ -35,7 +35,7 @@ class Assert
         $check = new $checkClass($verifiedValue);
         if(!$check->verify())
         {
-            $exceptionClass = sprintf('PhpJudex\\Checks\\Check%s\\Exception', ucfirst($name));
+            $exceptionClass = sprintf('Judex\\Checks\\Check%s\\Exception', ucfirst($name));
 
             if(!class_exists($exceptionClass))
             {

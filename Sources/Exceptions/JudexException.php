@@ -1,6 +1,6 @@
 <?php
 
-namespace PhpJudex\Exceptions;
+namespace Judex\Exceptions;
 
 use Throwable;
 

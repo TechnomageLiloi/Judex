@@ -1,8 +1,8 @@
 <?php
 
-namespace PhpJudex;
+namespace Judex;
 
-use PhpJudex\Exceptions\JudexException;
+use Judex\Exceptions\JudexException;
 use Throwable;
 
 /**

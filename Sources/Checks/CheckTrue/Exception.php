@@ -1,8 +1,8 @@
 <?php
 
-namespace PhpJudex\Checks\CheckTrue;
+namespace Judex\Checks\CheckTrue;
 
-use PhpJudex\Checks\Exception as ChecksException;
+use Judex\Checks\Exception as ChecksException;
 
 /**
  * Exception: True expected, but different value provided.

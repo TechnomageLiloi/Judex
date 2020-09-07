@@ -1,8 +1,8 @@
 <?php
 
-namespace PhpJudex\Checks\CheckEmpty;
+namespace Judex\Checks\CheckEmpty;
 
-use PhpJudex\Checks\Exception as ChecksException;
+use Judex\Checks\Exception as ChecksException;
 
 /**
  * Exception: Empty expected, but not empty value provided.

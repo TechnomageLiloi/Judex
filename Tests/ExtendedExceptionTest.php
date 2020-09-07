@@ -1,8 +1,8 @@
 <?php
-namespace PhpJudex;
+namespace Judex;
 
 use PHPUnit\Framework\TestCase;
-use PhpJudex\ExtendedException;
+use Judex\ExtendedException;
 
 /**
  * Check ExtendedException.

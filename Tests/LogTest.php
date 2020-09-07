@@ -1,10 +1,10 @@
 <?php
 
-namespace PhpJudex;
+namespace Judex;
 
 use PHPUnit\Framework\TestCase;
-use PhpJudex\Log;
-use PhpJudex\LogData;
+use Judex\Log;
+use Judex\LogData;
 
 /**
  * Check Log class.

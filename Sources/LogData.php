@@ -1,6 +1,6 @@
 <?php
 
-namespace PhpJudex;
+namespace Judex;
 
 /**
  * Log data class.

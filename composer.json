@@ -1,5 +1,5 @@
 {
-  "name": "anton-moskalenko/php-judex",
+  "name": "anton-moskalenko/judex",
   "license": "Apache-2.0",
   "description": "Library, which includes debug objects (exceptions, assertions, log, etc.)",
   "require": {
@@ -13,7 +13,7 @@
   "minimum-stability": "dev",
   "autoload": {
     "psr-4": {
-      "PhpJudex\\": "Sources"
+      "Judex\\": "Sources"
     }
   }
 }

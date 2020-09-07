@@ -1,9 +1,9 @@
 <?php
-namespace PhpJudex;
+namespace Judex;
 
-use PhpJudex\Exceptions\GeneralException;
+use Judex\Exceptions\GeneralException;
 use PHPUnit\Framework\TestCase;
-use PhpJudex\ListException;
+use Judex\ListException;
 
 /**
  * Check ExtendedException.

@@ -1,8 +1,8 @@
 <?php
 
-namespace PhpJudex\Checks\CheckNotNull;
+namespace Judex\Checks\CheckNotNull;
 
-use PhpJudex\Checks\Exception as ChecksException;
+use Judex\Checks\Exception as ChecksException;
 
 /**
  * Exception: Null expected, but different value provided.

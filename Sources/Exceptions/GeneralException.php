@@ -1,6 +1,6 @@
 <?php
 
-namespace PhpJudex\Exceptions;
+namespace Judex\Exceptions;
 
 /**
  * Extend from {@link JudexException) for different exceptions in this library (i.e.

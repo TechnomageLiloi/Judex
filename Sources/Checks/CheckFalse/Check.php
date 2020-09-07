@@ -1,8 +1,8 @@
 <?php
 
-namespace PhpJudex\Checks\CheckFalse;
+namespace Judex\Checks\CheckFalse;
 
-use PhpJudex\Checks\AbstractCheck;
+use Judex\Checks\AbstractCheck;
 
 /**
  * Assert check: verifiedValue === false

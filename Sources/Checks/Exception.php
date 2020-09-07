@@ -1,8 +1,8 @@
 <?php
 
-namespace PhpJudex\Checks;
+namespace Judex\Checks;
 
-use PhpJudex\Exceptions\GeneralException;
+use Judex\Exceptions\GeneralException;
 
 /**
  * Abstract for different assert exceptions.

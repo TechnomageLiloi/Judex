@@ -3,7 +3,6 @@
   "license": "Apache-2.0",
   "description": "Library, which includes debug objects (exceptions, assertions, log, etc.)",
   "require": {
-    "php": "^8.0"
   },
   "type": "library",
   "keywords": [

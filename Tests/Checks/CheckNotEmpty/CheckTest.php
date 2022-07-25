@@ -43,16 +43,16 @@ class CheckTest extends TestCase
      */
     public function testTrueManual(): void
     {
-        Assert::notEmpty(['test'], 'Test.', ['a' => 'b']);
+        Assert::notEmpty(['test'], 'Test.', 1,['a' => 'b']);
 
         try
         {
-            Assert::notEmpty([], 'Test.', ['a' => 'b']);
+            Assert::notEmpty([], 'Test.', 1,['a' => 'b']);
         }
         catch (Exception $e)
         {
             $this->assertEquals('Test.', $e->getMessage());
-            $this->assertEquals(0x06, $e->getCode());
+            $this->assertEquals(1, $e->getCode());
             $this->assertEquals(['a' => 'b'], $e->getData());
             $this->assertNull($e->getPrevious());
         }

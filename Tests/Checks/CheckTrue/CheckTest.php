@@ -43,16 +43,16 @@ class CheckTest extends TestCase
      */
     public function testTrueManual(): void
     {
-        Assert::true(true, 'Test.', ['a' => 'b']);
+        Assert::true(true, 'Test.', 1, ['a' => 'b']);
 
         try
         {
-            Assert::true(false, 'Test.', ['a' => 'b']);
+            Assert::true(false, 'Test.', 'test-code', ['a' => 'b']);
         }
         catch (Exception $e)
         {
             $this->assertEquals('Test.', $e->getMessage());
-            $this->assertEquals(0x01, $e->getCode());
+            $this->assertEquals('test-code', $e->getCode());
             $this->assertEquals(['a' => 'b'], $e->getData());
             $this->assertNull($e->getPrevious());
         }

@@ -7,10 +7,12 @@ use PhpJudex\Checks\AbstractCheck;
 /**
  * Assertion.
  *
- * @method static void true($verifiedValue, string $manualMessage = null, array $manualData = null)
- * @method static void false($verifiedValue, string $manualMessage = null, array $manualData = null)
- * @method static void null($verifiedValue, string $manualMessage = null, array $manualData = null)
- * @method static void notNull($verifiedValue, string $manualMessage = null, array $manualData = null)
+ * @method static void true($verifiedValue, string $manualMessage = null, $code, array $manualData = null)
+ * @method static void false($verifiedValue, string $manualMessage = null, $code, array $manualData = null)
+ * @method static void null($verifiedValue, string $manualMessage = null, $code, array $manualData = null)
+ * @method static void notNull($verifiedValue, string $manualMessage = null, $code, array $manualData = null)
+ * @method static void empty($verifiedValue, string $manualMessage = null, $code, array $manualData = null)
+ * @method static void notEmpty($verifiedValue, string $manualMessage = null, $code, array $manualData = null)
  * @package Assert
  */
 class Assert
@@ -43,9 +45,10 @@ class Assert
             }
 
             $manualMessage = $arguments[1] ?? null;
-            $manualData = $arguments[2] ?? null;
+            $manualCode = $arguments[2] ?? null;
+            $manualData = $arguments[3] ?? null;
 
-            throw new $exceptionClass($manualMessage, null, null, $manualData);
+            throw new $exceptionClass($manualMessage, $manualCode, null, $manualData);
         }
     }
 }

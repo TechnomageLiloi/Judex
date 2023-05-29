@@ -1,6 +1,6 @@
 {
-  "name": "anton-moskalenko/php-judex",
-  "license": "Apache-2.0",
+  "name": "technomage-liloi/rune-config",
+  "license": "BSD-3-Clause",
   "description": "Library, which includes debug objects (exceptions, assertions, log, etc.)",
   "require": {
   },

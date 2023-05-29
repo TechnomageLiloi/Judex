@@ -1,8 +1,8 @@
 <?php
 
-namespace PhpJudex\Checks\CheckNotEmpty;
+namespace Liloi\Judex\Checks\CheckNotEmpty;
 
-use PhpJudex\Checks\AbstractCheck;
+use Liloi\Judex\Checks\AbstractCheck;
 
 /**
  * Assert check: !empty($this->verifiedValue)

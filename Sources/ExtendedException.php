@@ -1,8 +1,8 @@
 <?php
 
-namespace PhpJudex;
+namespace Liloi\Judex;
 
-use PhpJudex\Exceptions\JudexException;
+use Liloi\Judex\Exceptions\JudexException;
 
 /**
  * Extend from {@link JudexException} for other programmers to use.

@@ -1,8 +1,8 @@
 <?php
 
-namespace PhpJudex;
+namespace Liloi\Judex;
 
-use PhpJudex\Checks\AbstractCheck;
+use Liloi\Judex\Checks\AbstractCheck;
 
 /**
  * Assertion.
@@ -24,7 +24,7 @@ class Assert
      */
     public static function __callStatic($name, $arguments)
     {
-        $checkClass = sprintf('PhpJudex\\Checks\\Check%s\\Check', ucfirst($name));
+        $checkClass = sprintf('Liloi\Judex\\Checks\\Check%s\\Check', ucfirst($name));
 
         if(!class_exists($checkClass))
         {
@@ -37,7 +37,7 @@ class Assert
         $check = new $checkClass($verifiedValue);
         if(!$check->verify())
         {
-            $exceptionClass = sprintf('PhpJudex\\Checks\\Check%s\\Exception', ucfirst($name));
+            $exceptionClass = sprintf('Liloi\Judex\\Checks\\Check%s\\Exception', ucfirst($name));
 
             if(!class_exists($exceptionClass))
             {

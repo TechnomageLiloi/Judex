@@ -1,8 +1,8 @@
 <?php
-namespace PhpJudex\Exceptions;
+namespace Liloi\Judex\Exceptions;
 
 use PHPUnit\Framework\TestCase;
-use PhpJudex\Exceptions\JudexException;
+use Liloi\Judex\Exceptions\JudexException;
 
 /**
  * Check JudexException.

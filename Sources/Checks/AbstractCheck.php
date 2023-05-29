@@ -1,6 +1,6 @@
 <?php
 
-namespace PhpJudex\Checks;
+namespace Liloi\Judex\Checks;
 
 /**
  * Abstract assert check.

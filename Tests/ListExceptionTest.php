@@ -1,9 +1,9 @@
 <?php
-namespace PhpJudex;
+namespace Liloi\Judex;
 
-use PhpJudex\Exceptions\GeneralException;
+use Liloi\Judex\Exceptions\GeneralException;
 use PHPUnit\Framework\TestCase;
-use PhpJudex\ListException;
+use Liloi\Judex\ListException;
 
 /**
  * Check ExtendedException.

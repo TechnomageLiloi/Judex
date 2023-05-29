@@ -1,8 +1,8 @@
 <?php
 
-namespace PhpJudex\Checks;
+namespace Liloi\Judex\Checks;
 
-use PhpJudex\Exceptions\GeneralException;
+use Liloi\Judex\Exceptions\GeneralException;
 
 /**
  * Abstract for different assert exceptions.

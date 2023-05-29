@@ -1,8 +1,8 @@
 <?php
 
-namespace PhpJudex\Checks\CheckTrue;
+namespace Liloi\Judex\Checks\CheckTrue;
 
-use PhpJudex\Checks\Exception as ChecksException;
+use Liloi\Judex\Checks\Exception as ChecksException;
 
 /**
  * Exception: True expected, but different value provided.

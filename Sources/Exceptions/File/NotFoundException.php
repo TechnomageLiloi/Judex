@@ -19,4 +19,13 @@ class NotFoundException extends ChecksException
     {
         return new self(null, null, null, ['filename' => $filename]);
     }
+
+    /**
+     * @param string $classname Classname, that is not found.
+     * @return static
+     */
+    public static function createByClassName(string $classname): self
+    {
+        return new self('Source file by class not found.', null, null, ['classname' => $classname]);
+    }
 }

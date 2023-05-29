@@ -29,7 +29,7 @@ class Assert
 
         if(!class_exists($checkClass))
         {
-            throw NotFoundException::create($checkClass);
+            throw NotFoundException::createByClassName($checkClass);
         }
 
         $verifiedValue = $arguments[0];
@@ -42,7 +42,7 @@ class Assert
 
             if(!class_exists($exceptionClass))
             {
-                throw NotFoundException::create($exceptionClass);
+                throw NotFoundException::createByClassName($exceptionClass);
             }
 
             $manualMessage = $arguments[1] ?? null;

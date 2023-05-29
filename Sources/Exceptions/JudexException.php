@@ -1,6 +1,6 @@
 <?php
 
-namespace Judex\Exceptions;
+namespace Liloi\Judex\Exceptions;
 
 use Throwable;
 

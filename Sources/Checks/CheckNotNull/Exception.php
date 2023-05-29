@@ -1,8 +1,8 @@
 <?php
 
-namespace Judex\Checks\CheckNotNull;
+namespace Liloi\Judex\Checks\CheckNotNull;
 
-use Judex\Checks\Exception as ChecksException;
+use Liloi\Judex\Checks\Exception as ChecksException;
 
 /**
  * Exception: Null expected, but different value provided.

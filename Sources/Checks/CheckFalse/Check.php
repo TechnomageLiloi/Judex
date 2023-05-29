@@ -1,8 +1,8 @@
 <?php
 
-namespace Judex\Checks\CheckFalse;
+namespace Liloi\Judex\Checks\CheckFalse;
 
-use Judex\Checks\AbstractCheck;
+use Liloi\Judex\Checks\AbstractCheck;
 
 /**
  * Assert check: verifiedValue === false

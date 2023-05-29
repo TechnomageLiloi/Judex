@@ -1,6 +1,6 @@
 <?php
 
-namespace Judex\Exceptions;
+namespace Liloi\Judex\Exceptions;
 
 /**
  * Extend from {@link JudexException) for different exceptions in this library (i.e.

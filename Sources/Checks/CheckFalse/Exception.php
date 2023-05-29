@@ -1,8 +1,8 @@
 <?php
 
-namespace Judex\Checks\CheckFalse;
+namespace Liloi\Judex\Checks\CheckFalse;
 
-use Judex\Checks\Exception as ChecksException;
+use Liloi\Judex\Checks\Exception as ChecksException;
 
 /**
  * Exception: False expected, but different value provided.

@@ -1,8 +1,8 @@
 <?php
 
-namespace Judex\Checks\CheckEmpty;
+namespace Liloi\Judex\Checks\CheckEmpty;
 
-use Judex\Checks\Exception as ChecksException;
+use Liloi\Judex\Checks\Exception as ChecksException;
 
 /**
  * Exception: Empty expected, but not empty value provided.

@@ -1,9 +1,9 @@
 <?php
 
-namespace Judex\Checks\CheckNotNull;
+namespace Liloi\Judex\Checks\CheckNotNull;
 
 use PHPUnit\Framework\TestCase;
-use Judex\Assert;
+use Liloi\Judex\Assert;
 
 /**
  * Check assert class.
@@ -13,7 +13,7 @@ class CheckTest extends TestCase
     /**
      * Tests {@link Assert::notNull()} method (default values).
      *
-     * * Arrange: defines {@link Assert} in {@link \Judex\Checks\CheckNotNull\Exception} catch.
+     * * Arrange: defines {@link Assert} in {@link \Liloi\Judex\Checks\CheckNotNull\Exception} catch.
      * * Act: calls {@link Assert::notNull()} method.
      * * Assert: checks default values.
      */
@@ -37,7 +37,7 @@ class CheckTest extends TestCase
     /**
      * Tests {@link Assert::notNull()} method (manual values).
      *
-     * * Arrange: defines {@link Assert} in {@link \Judex\Checks\CheckNotNull\Exception} catch.
+     * * Arrange: defines {@link Assert} in {@link \Liloi\Judex\Checks\CheckNotNull\Exception} catch.
      * * Act: calls {@link Assert::notNull()} method.
      * * Assert: checks manual values.
      */

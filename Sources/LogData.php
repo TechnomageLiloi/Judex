@@ -1,6 +1,6 @@
 <?php
 
-namespace Judex;
+namespace Liloi\Judex;
 
 /**
  * Log data class.

@@ -1,9 +1,9 @@
 <?php
 
-namespace Judex\Checks\CheckEmpty;
+namespace Liloi\Judex\Checks\CheckEmpty;
 
 use PHPUnit\Framework\TestCase;
-use Judex\Assert;
+use Liloi\Judex\Assert;
 
 /**
  * Check assert class.
@@ -13,7 +13,7 @@ class CheckTest extends TestCase
     /**
      * Tests {@link Assert::empty()} method (default values).
      *
-     * * Arrange: defines {@link Assert} in {@link \Judex\Checks\CheckEmpty\Exception} catch.
+     * * Arrange: defines {@link Assert} in {@link \Liloi\Judex\Checks\CheckEmpty\Exception} catch.
      * * Act: calls {@link Assert::empty()} method.
      * * Assert: checks default values.
      */
@@ -37,7 +37,7 @@ class CheckTest extends TestCase
     /**
      * Tests {@link Assert::empty()} method (manual values).
      *
-     * * Arrange: defines {@link Assert} in {@link \Judex\Checks\CheckEmpty\Exception} catch.
+     * * Arrange: defines {@link Assert} in {@link \Liloi\Judex\Checks\CheckEmpty\Exception} catch.
      * * Act: calls {@link Assert::empty()} method.
      * * Assert: checks manual values.
      */

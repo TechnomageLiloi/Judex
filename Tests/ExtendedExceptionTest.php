@@ -1,8 +1,8 @@
 <?php
-namespace Judex;
+namespace Liloi\Judex;
 
 use PHPUnit\Framework\TestCase;
-use Judex\ExtendedException;
+use Liloi\Judex\ExtendedException;
 
 /**
  * Check ExtendedException.

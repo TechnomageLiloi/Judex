@@ -1,10 +1,10 @@
 <?php
 
-namespace Judex;
+namespace Liloi\Judex;
 
 use PHPUnit\Framework\TestCase;
-use Judex\Log;
-use Judex\LogData;
+use Liloi\Judex\Log;
+use Liloi\Judex\LogData;
 
 /**
  * Check Log class.

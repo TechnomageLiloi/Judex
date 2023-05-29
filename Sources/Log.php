@@ -2,6 +2,8 @@
 
 namespace Liloi\Judex;
 
+use Liloi\Judex\Assert;
+
 /**
  * Log wrap.
  *
@@ -24,8 +26,7 @@ class Log
      */
     public static function set(string $uniqueId, callable $f)
     {
-        // @todo $uniqueId Assert Not Empty
-
+        Assert::notEmpty($uniqueId);
         self::$arrCalls[$uniqueId] = $f;
     }
 
@@ -37,7 +38,7 @@ class Log
      */
     public static function get(string $uniqueId): callable
     {
-        // @todo $uniqueId Assert Not Empty
+        Assert::notEmpty($uniqueId);
 
         // @todo $uniqueId Assert Not Empty in Calls array.
 

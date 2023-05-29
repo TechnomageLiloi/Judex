@@ -11,6 +11,18 @@ use Liloi\Judex\LogData;
  */
 class LogTest extends TestCase
 {
+    public function testAssertExceptionWantedSet(): void
+    {
+        $this->expectException(Checks\CheckNotEmpty\Exception::class);
+        Log::set('', function (){});
+    }
+
+    public function testAssertExceptionWantedGet(): void
+    {
+        $this->expectException(Checks\CheckNotEmpty\Exception::class);
+        Log::get('');
+    }
+
     /**
      * Tests {@link Log} class (callback methods).
      *

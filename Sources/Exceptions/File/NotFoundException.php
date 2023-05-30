@@ -9,6 +9,11 @@ class NotFoundException extends ChecksException
     /**
      * @inheritDoc
      */
+    protected $defaultCode = 0x07;
+
+    /**
+     * @inheritDoc
+     */
     protected $defaultMessage = 'File not found';
 
     /**

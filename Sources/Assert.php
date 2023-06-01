@@ -3,6 +3,7 @@
 namespace Liloi\Judex;
 
 use Liloi\Judex\Checks\AbstractCheck;
+use Liloi\Judex\Exceptions\File\NotFoundException;
 
 /**
  * Assertion.
@@ -28,7 +29,7 @@ class Assert
 
         if(!class_exists($checkClass))
         {
-            throw new \Exception(); // @todo Change to ours.
+            throw NotFoundException::createByClassName($checkClass);
         }
 
         $verifiedValue = $arguments[0];
@@ -41,7 +42,7 @@ class Assert
 
             if(!class_exists($exceptionClass))
             {
-                throw new \Exception(); // @todo Change to ours.
+                throw NotFoundException::createByClassName($exceptionClass);
             }
 
             $manualMessage = $arguments[1] ?? null;

@@ -1,5 +1,5 @@
 {
-  "name": "technomage-liloi/rune-config",
+  "name": "technomage-liloi/judex",
   "license": "BSD-3-Clause",
   "description": "Library, which includes debug objects (exceptions, assertions, log, etc.)",
   "require": {
